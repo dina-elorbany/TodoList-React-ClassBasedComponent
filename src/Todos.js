@@ -13,7 +13,9 @@ const Todos = ({ todos, deleteTodo }) => {
   );
 
   return (
-    <div className="todos collection border-warning shadow">{todoList}</div>
+    <div className="todos collection border-warning shadow z-depth-3">
+      {todoList}
+    </div>
   );
 };
 

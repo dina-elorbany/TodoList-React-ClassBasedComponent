@@ -1,7 +1,7 @@
 body {
   background-image: url("./images/background.jpeg");
-  background-blend-mode: darken;
-  background-color: rgba(0, 0, 0, 0.404);
+  background-blend-mode: lighten;
+  background-color: rgba(71, 71, 71, 0.397);
   background-repeat: none;
   object-fit: cover;
 }
@@ -22,8 +22,7 @@ h1 {
 .item:hover {
   transform: scale(1.1);
   background-color: rgba(221, 190, 117, 0.719);
-  /* text-align: center; */
-  padding-left: 5rem;
+  padding-left: 5.5rem;
 }
 
 .done-msg {
@@ -32,7 +31,7 @@ h1 {
 
 label {
   display: block;
-  font-size: 0.9rem;
+  font-size: 1rem;
   transform: translateY(20px);
-  color: #e2e2e2e3;
+  color: #181717d0;
 }

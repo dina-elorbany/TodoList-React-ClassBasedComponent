@@ -6,8 +6,8 @@ import Todos from "./Todos";
 class App extends Component {
   state = {
     todos: [
-      { id: 1, content: "have iftar" },
-      { id: 2, content: "study react" },
+      { id: 1, content: "study redux" },
+      { id: 2, content: "create a react project" },
     ],
   };
 
