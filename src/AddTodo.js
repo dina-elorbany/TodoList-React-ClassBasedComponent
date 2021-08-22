@@ -28,7 +28,7 @@ class AddTodo extends Component {
           <label>Add new Todo:</label>
           <input
             type="text"
-            className=""
+            className="input-field"
             onChange={this.handleChange}
             value={this.state.content}
           />

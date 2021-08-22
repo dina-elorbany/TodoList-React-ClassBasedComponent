@@ -1,9 +1,38 @@
+body {
+  background-image: url("./images/background.jpeg");
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.404);
+  background-repeat: none;
+  object-fit: cover;
+}
+
+h1 {
+  text-shadow: 4px 5px 10px rgba(138, 104, 26, 0.78);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
 .item {
   cursor: pointer;
   font-size: large;
   text-transform: capitalize;
+  transition: all 0.2s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.1);
+  background-color: rgba(221, 190, 117, 0.719);
+  /* text-align: center; */
+  padding-left: 5rem;
 }
 
 .done-msg {
   cursor: default;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  transform: translateY(20px);
+  color: #e2e2e2e3;
 }

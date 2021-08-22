@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1 className="center light-blue-text mt-5 mb-4">Todo List</h1>
+        <h1 className="center mt-5 mb-4">Todo List</h1>
         <Todos todos={this.state.todos} deleteTodo={this.deleteTodo} />
         <AddTodo addTodo={this.addTodo} />
       </div>

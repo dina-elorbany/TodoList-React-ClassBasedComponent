@@ -12,7 +12,9 @@ const Todos = ({ todos, deleteTodo }) => {
     <p className="center done-msg">You don't have any Todos 😁</p>
   );
 
-  return <div className="todos collection">{todoList}</div>;
+  return (
+    <div className="todos collection border-warning shadow">{todoList}</div>
+  );
 };
 
 export default Todos;
